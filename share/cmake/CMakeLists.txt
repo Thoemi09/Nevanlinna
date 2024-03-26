@@ -1,5 +1,5 @@
-configure_file(${PROJECT_NAME}Config.cmake.in ${PROJECT_NAME}Config.cmake @ONLY)
-configure_file(${PROJECT_NAME}ConfigVersion.cmake.in ${PROJECT_NAME}ConfigVersion.cmake @ONLY)
+configure_file(${PROJECT_NAME}-config.cmake.in ${PROJECT_NAME}-config.cmake @ONLY)
+configure_file(${PROJECT_NAME}-config-version.cmake.in ${PROJECT_NAME}-config-version.cmake @ONLY)
 install(
   FILES
     ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}-config.cmake
